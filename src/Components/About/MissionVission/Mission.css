@@ -1,0 +1,59 @@
+.x-ten{
+    margin-left: 340px;
+}
+
+.v-img2{
+    display: none;
+}
+
+.vision{
+    margin-left: 0px !important;
+    padding-right: 90px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+        
+    .vision{
+        margin-left: 0px !important;
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .mission{
+        text-align: center;
+    }
+
+    .v-img{
+        display: none;
+    }
+
+    .v-img2{
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .to{
+        margin-left: 200px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    .x-ten{
+        margin-left: 150px;
+    }
+    
+        
+    .vision{
+        text-align: center;
+        margin-left: 90px !important;
+    }
+
+    .v-img{
+        display: none;
+    }
+
+
+}

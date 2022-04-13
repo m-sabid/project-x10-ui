@@ -1,0 +1,46 @@
+.acct{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.f-dd-c2{
+    margin-left: 570px;
+}
+
+.table{
+    margin-top: 80px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .f-dd-c2{
+        margin-left: 70px;
+    }
+
+    .acct{
+        padding: 4px;
+        margin-top: 50px;
+    }
+    
+    
+}
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .f-dd-c2{
+        margin-left: 280px;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    
+    .f-dd-c2{
+        margin-left: 400px;
+    }
+
+    .acct{
+        padding: 40px;
+        margin-top: 50px;
+    }
+    
+
+}

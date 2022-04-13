@@ -1,0 +1,135 @@
+.ht-title{
+    text-align: center;
+    margin: auto;
+}
+
+.ht-first{
+    display: flex;
+    margin-top: 70px;
+}
+.ht-second{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.ht-info{
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.ht-info2{
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.ht-btn{
+    font-size: 17px;
+    color: #002857;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: -17px;
+    font-weight: 600;
+}
+
+.first-img{
+    width: 500px;
+}
+
+.second-img{
+    margin-left: 90px !important;
+    width: 560px;
+}
+
+
+.ho{
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .ht-first{
+        display: block;
+        margin-top: 70px;
+    }
+
+    .ht-second{
+        display: block;
+        margin-top: 100px;
+    }
+
+    .second-img{
+        margin-left: 10px !important;
+        width: 330px;
+        margin-top: -50px;
+    }
+    
+    .first-img{
+        margin-left: 10px !important;
+        width: 330px;
+    }
+
+    .ht-info{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    
+
+    .ho{
+        display: block;
+    }
+
+    .hi{
+        display: none;
+    }
+
+
+    
+    .ht-info2{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .ht-first{
+        display: block;
+        margin-top: 70px;
+    }
+
+    .ht-second{
+        display: block;
+        margin-top: 100px;
+    }
+
+    .ho{
+        display: block;
+    }
+
+    .hi{
+        display: none;
+    }
+
+    
+    .ht-info{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+      
+    .ht-info2{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    
+
+
+} 

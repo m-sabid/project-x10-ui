@@ -1,0 +1,55 @@
+.top-section{
+    background: #0e1d35;
+    height: 70px;
+}
+
+.logo-img{
+    height: 50px;
+    padding-top: 0px;
+    margin-left: -20px;
+}
+
+.personal{
+    color: green;
+    padding-left: 35px;
+    padding-top: 23px;
+    font-weight: 600;
+}
+
+
+.institutional{
+    color: white;
+    padding-left: 35px;
+    padding-top: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.institutional:hover{
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .top-section{
+        display: none;
+    }
+  }
+
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .top-section{
+        display: none;
+    }
+  }

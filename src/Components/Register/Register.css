@@ -1,0 +1,18 @@
+.regi-left{
+    background-color: rgb(13, 13, 34);
+    height: 900px;
+    width: 50%;
+}
+
+.r-top{
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.r-inf{
+    margin-left: 40px;
+    margin-right: 20px;
+    color: white;
+}

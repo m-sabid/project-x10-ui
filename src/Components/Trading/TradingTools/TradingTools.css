@@ -1,0 +1,28 @@
+.pa{
+    padding: 200px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .pa{
+        padding: 10px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .pa{
+        padding: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    
+    .pa{
+        padding: 100px;
+    }
+}

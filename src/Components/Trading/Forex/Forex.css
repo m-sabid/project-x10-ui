@@ -1,0 +1,373 @@
+.forex{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.f-m-c{
+    color: rgba(19, 19, 129, 0.925);
+}
+
+.forex-p{
+    font-size: 1.2rem;
+    color: rgba(18, 18, 133, 0.89);
+}
+
+.forex-p2{
+    font-size: 1.5rem;
+}
+
+.f-m-h{
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.f-img{
+    height: 320px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+.f-video{
+    height: 600px;
+    width: 400px;
+}
+
+.forex-info2{
+    margin-left: 100px;
+}
+
+
+.table-title{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.forex-table{
+    text-align: center;
+}
+
+
+.choose{
+    background-color: rgb(252, 248, 248);
+    margin-top: 40px;
+    height: 900px;
+}
+
+.c-title{
+    display: block;
+    padding-top: 50px;
+}
+
+.c-m-h{
+    font-weight: 700;
+}
+
+
+.choose-img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px 40px 10px 40px;
+    margin-top: 70px;
+}
+
+
+
+.start-title{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 0px 7px 1px rgb(194, 184, 252);
+}
+
+.box2{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 0px 7px 1px rgb(194, 184, 252);
+}
+
+.start-box2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.s-b-c{
+ 
+   width: 20%;
+   margin: auto;
+   margin-top: 4rem;
+}
+
+
+.slider-flex{
+    display: flex;
+}
+
+
+.slider{
+    width: 545px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.slider2{
+    display: none;
+}
+.slider3{
+    display: none;
+}
+
+.start-btn-b2{
+    background-color: rgba(6, 6, 59, 0.897);
+    padding-left: 55px !important;
+    width: 270px;
+    color: white !important;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.start-btn-b2:hover{
+    background-color: white;
+    padding-left: 55px !important;
+    border: 1px solid rgba(6, 6, 59, 0.897);
+    width: 270px;
+    color: rgba(6, 6, 59, 0.897) !important;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .forex{
+        display: block;
+    }
+
+    .f-img{
+       display: none;
+    }
+    
+    .f-video{
+        height: 500px;
+        width: 350px;
+        margin-left: -0px;
+    }
+
+    .forex-info2{
+        margin-left: 0px;
+        width: 93%;
+    }
+
+    
+    .forex-table{
+        display: none;
+    }
+
+    .choose-img{
+        height: 300px;
+        width: 320px;
+        margin-left: 15px;
+    }
+
+    .choose{
+        background-color: rgb(252, 248, 248);
+        margin-top: 40px;
+        height: 950px;
+    }
+
+    .slider{
+        display: none;
+    }
+    .slider2{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    /* .slider-flex{
+        display: block;
+    } */
+
+    
+    
+    .start-box{
+        display: block;
+    }
+
+    
+    .box{
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 50px;
+        padding: 30px;
+        box-shadow: 0px 0px 7px 1px rgb(194, 193, 193);
+    }
+
+    
+    .box2{
+        width: 100%;
+    }
+
+    .start-box2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .s-b-c{
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+     }
+     
+
+     .start-btn-b2{
+        margin-left: -25px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    
+    .forex-p{
+      text-align: center;
+    }
+
+    .forex-p2{
+        text-align: center;
+    }
+    .f-c{
+        text-align: center;
+    }
+    .f-img{
+        display: none;
+     }
+
+     .f-dd-c{
+        margin-left: 230px;
+     }
+     
+    .f-video{
+        height: 500px;
+        width: 400px;
+        margin-left: -60px;
+        margin-top: 30px;
+    }
+
+    .forex-info2{
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+
+    .slider{
+        display: none;
+    }
+    .slider3{
+        display: block; 
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .choose{
+        background-color: rgb(252, 248, 248);
+        margin-top: 40px;
+        height: 1050px;
+    }
+
+    .c-m-h{
+        text-align: center;
+    }
+
+    .choose-img{
+        margin-left: 90px;
+    }
+
+    .box{
+        width: 210px;
+        height: 425px;
+    }
+
+    .box2{
+        width: 280px;
+        margin-left: 30px;
+    }
+
+    .start-box2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .s-b-c{
+        width: 30%;
+        margin: auto;
+        margin-top: 4rem;
+     }
+    
+     .start-btn-b2{
+        margin-left: -25px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    
+    .box{
+        width: 290px;
+        height: 375px;
+    }
+
+    .choose-img{
+        height: 300px;
+        width: 320px;
+        margin-left: 15px;
+    }
+
+
+    .slider{
+        width: 545px;
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+    
+    .choose{
+        height: 950px;
+    }
+
+    .start-box2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    .box2{
+        width: 210px;
+    }
+
+    .start-btn-b2{
+        margin-left: -40px;
+    }
+}

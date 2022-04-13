@@ -1,0 +1,24 @@
+.sw-img{
+    margin-left: 200px;
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width:  768px) {
+    .sw-img{
+        margin-left: 0px;
+    }
+
+    .we{
+        margin-left: 130px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    .sw-img{
+        margin-left: 0px;
+    }
+}

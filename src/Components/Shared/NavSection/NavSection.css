@@ -1,0 +1,451 @@
+
+.logo-img2{
+    height: 35px;
+    display: none;
+}
+
+.drop-dawn{
+    margin-left: 5px;
+}
+
+
+.trr{
+    margin-left: -15px;
+}
+
+.drop-dawn-box-1{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.drop-dawn-box-r{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.drop-dawn-box-2{
+    width:750px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-bb{
+    margin-left: 40px;
+}
+.nav-bb-h{
+    color: rgba(7, 7, 85, 0.897);
+    font-weight: 700;
+}
+
+.start-btn-b{
+    background-color: rgba(6, 6, 59, 0.897);
+    padding-left: 70px !important;
+    width: 230px;
+    color: white !important;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.small-p{
+    font-size: 9px;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.btn-try{
+    color: rgba(8, 8, 63, 0.877) !important;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(7, 7, 66, 0.89);
+    width: 125px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+.drop-dawn-box-3{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.c{
+    border-bottom: 1.5px solid rgb(190, 22, 22);
+    width: 70px;
+    padding-bottom: 5px;
+}
+
+.c2{
+    border-bottom: 1.5px solid rgb(190, 22, 22);
+    font-weight: 600;
+}
+
+.cs{
+    width: 100px;
+}
+
+.dpi-c{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.end{
+    display: none;
+}
+
+.login-col{
+    color: #11b46c !important;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: 28px;
+ 
+}
+.login-col2{
+    color: #11b46c !important;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: -15px;
+    margin-left: 28px;
+ 
+}
+
+
+
+.l2{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.pp{
+    display: flex;
+}
+
+.nn-b{
+    display: none;
+}
+.log{
+    height: 40px;
+}
+
+.login-btn{
+    background-color: #11b46c;
+    height: 37px;
+    color: white !important;
+    font-weight: 600;
+   margin-top: 0px;
+   padding-top: 6px;
+   padding-left: 35px;
+   padding-right: 35px;
+   border-radius: 25px;
+}
+.login-btn:hover{
+    background-color: #002857;
+ 
+}
+
+.b{
+    font-weight: 700;
+}
+
+
+.p-i{
+    display: none !important;
+    
+}
+
+   .login-color2{
+        display: none;
+    }
+
+
+
+.personall{
+    margin-left: 30px;
+    margin-top: -6px;
+    height: 30px;
+    padding: 0;
+}
+
+.institution{
+    margin-left: 15px;
+    border-left: 1px solid red;
+    margin-top: -14px;
+    padding-left: 15px !important;
+    padding-top: -40px !important;
+ 
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width:  480px) {
+    .end{
+        display: block;
+    }
+
+    .login-color{
+        color: #11b46c;
+        font-weight: 600;
+        font-size: 17px;
+        margin-left: 17px;
+        margin-top: -25px;
+        display: none;
+    }
+ 
+    .logo-img2{
+        height:35px;
+        display: block;
+    }
+    
+
+    .login-btn{
+        background-color: #11b46c;
+        height: 37px;
+        color: white !important;
+        font-weight: 600;
+       margin-top: -0px;
+       padding-top: 6px;
+       padding-left: 15px;
+       padding-right: 15px;
+       border-radius: 3px;
+       margin-left: -20px !important;
+    }
+
+    .drop-dawn-1{
+        margin-left: 30px;
+    }
+    .drop-dawn{
+        margin-left: 30px;
+    }
+
+    .in{
+        display: none;
+    }
+
+    .l2{
+        display: block !important;
+    }
+    
+    .p-i{
+        display: block !important;
+    }
+
+    .pp{
+        display: none;
+    }
+
+    .nn-b{
+        display: block;
+    }
+
+    .drop-dawn-box-1{
+        width: 280px;
+        display: block;
+        padding: 20px;
+    }
+    
+    .drop-dawn-box-r{
+        width: 280px;
+        display: block;
+        padding: 20px;
+    }
+    
+    
+    .drop-dawn-box-2{
+        width: 280px;
+        display: block;
+        padding: 20px;
+    }
+
+
+    .drop-dawn-box-3{
+        width: 280px;
+        display: block;
+        padding: 20px;
+    }
+
+    .m{
+        display: none !important;
+    }
+
+    .nav-bb{
+        display: none;
+    }
+
+    
+  }
+
+
+
+
+
+  @media only screen and (min-width: 481px) and (max-width:  768px) {
+   .end{
+        display: block;
+    }
+
+   
+
+    .logo-img2{
+        height:45px;
+        display: block;
+    }
+
+    .nn-b{
+        display: block;
+    }
+
+    
+    .login-btn{
+        background-color: #11b46c;
+        height: 37px;
+        color: white !important;
+        font-weight: 600;
+       margin-top: 10px;
+       padding-top: 6px;
+       padding-left: 25px;
+       padding-right: 25px;
+       border-radius: 3px;
+       margin-left: 10px !important;
+    }
+
+    
+    .login-col,.login-col2{
+        color: #11b46c;
+        font-weight: 600;
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top: -15px;
+       
+    }
+
+    .pp{
+        display: none;
+    }
+    
+    .drop-dawn-1{
+        margin-left: 0px;
+    }
+    .drop-dawn{
+        margin-left: 0px;  
+    }
+
+       
+    .p-i{
+        display: block !important;
+    }
+
+    .drop-dawn-box-1{
+        width: 130px !important;
+        display: block;
+        padding: 30px;
+        padding: 0px;
+    }
+ 
+    .drop-dawn-box-2{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px !important;
+    }
+
+    .drop-dawn-box-3{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px !important;
+    }
+
+    .drop-dawn-box-r{
+        width: 480px !important;
+        display: flex;
+        padding: 0px;
+    }
+
+    .nav-bb{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:  1024px) {
+    .drop-dawn{
+        margin-left: 0px;
+    }
+
+    .l2{
+        font-size: 10px;
+    }
+
+    .ip{
+     
+      margin-left: -10px !important;
+        
+       
+    }
+    
+    .login-btn{
+        height: 37px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 3px;
+        font-size: 12px;
+      
+    }
+
+    .drop-dawn-box-2{
+        width: 850px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .drop-dawn-box-1{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .drop-dawn-box-r{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .drop-dawn-box-3{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-bb{
+        display: none;
+    }
+
+
+}
+
+    
+    
